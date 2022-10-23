@@ -13,18 +13,18 @@ console.log(JSON.stringify(contract.abi));
 
 // Create a signer
 const privateKey = process.env.PRIVATE_KEY;
-const signer = new ethers.Wallet("{Your WAllet address}", provider);
+const signer = new ethers.Wallet(process.env.Wallet, provider);
 
 // Get contract ABI and address
 const abi = contract.abi;
-const contractAddress = '{your_contract_adree}'
+const contractAddress = process.env.CONTRACT_ADDRESS;
 
 
 // Create a contract instance
 const myNftContract = new ethers.Contract(contractAddress, abi, signer);
 
 // Get the NFT Metadata IPES URL
-const tokenUri = "https://gateway.pinata.cloud/ipfs/{your_address}";
+const tokenUri = `https://gateway.pinata.cloud/ipfs/${process.env.HASH}`;
 
 // Call mintNFT function
 const mintNFT = async () => {
