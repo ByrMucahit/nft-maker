@@ -1,6 +1,6 @@
 # nft-maker
 
-That's project was developed in development envinronment of Alchemy. That's project have transaction that makes nft over digital objects. This transaction divided into some steps:
+That's project was developed in development envinronment of Alchemy. That's project have transaction that makes nft over digital objects. This transaction divided into some required steps:
 
 1. Create an account on alchmey dashboard, then create an app.
 ![alt text](https://user-images.githubusercontent.com/62469567/197407770-734e7adb-818b-491a-b9f7-3102e18c0066.png)
