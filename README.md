@@ -10,6 +10,6 @@ That's project was developed in development envinronment of Alchemy. That's proj
 4. Create a Hardhat Project
 * Hardhat is a development environment to compile, deploy, test, and debug smart contracts. It helps developers create dApps locally before deploying them to a live chain.
 
-Firstly, We needed to write own contract to created instance of ethereum contract to publish into ethereum envinronment. That contract was developed by using OpenZepplin. OpenZepplin contains the implementation of the ERC721 standard, which our NFT smart contract will inherit. then, that's project connect Metamask and Alchemy Application, so we connected Metamask wallet, an Alchemy Account, and a smart contract. We created envinronment that has information of owner. We added some plugins and dependencies into hardhat config. after then, We writed deployment script for contract then contract wad deployed.
+Firstly, We needed to write own contract to created instance of ethereum contract to publish into ethereum envinronment. That contract was developed by using OpenZepplin. OpenZepplin contains the implementation of the ERC721 standard, which our NFT smart contract will inherit. then, we connected Metamask wallet, an Alchemy Account, and a smart contract. We created envinronment that has information of owner. We added some plugins and dependencies into hardhat config. after then, We writed deployment script for contract then contract wad deployed.
 
 Tech Pack: Metamask, Solidity, Hardhat, Pinata and Alchemy
